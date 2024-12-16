@@ -1,0 +1,23 @@
+.form-login{
+    min-width: 600px ;
+    min-height: 480px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.form-register-title{
+    font-family: "Abel", sans-serif;
+    font-size: 33px;
+    font-weight: 800;
+    color: #1F3B61;
+    padding: 0 10px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+

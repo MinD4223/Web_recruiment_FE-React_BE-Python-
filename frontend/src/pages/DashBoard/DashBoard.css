@@ -1,0 +1,52 @@
+.title{
+    font-family: "Abel", sans-serif;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.row-number{
+    display: flex;
+    justify-content: space-around;
+}
+
+.number {
+    background: white;
+    min-width:  30%;
+    min-height: 100px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    font-family: "Bebas Neue", serif;
+    
+    align-items: center;
+    flex-direction: column;
+}
+
+.number_title{
+    font-size: 25px;
+}
+
+.number_count{
+    font-size: 45px;
+}
+
+.row-diagram{
+    display: flex;
+    justify-content: space-around;
+}
+
+.diagram{
+    margin-top: 20px;
+    background: white;
+    border-radius: 20px;
+    min-height: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3)
+}
+
+.diagram-cv{
+    min-width:  63%;
+}
+
+.diagram-job{
+    min-width:  30%;
+}

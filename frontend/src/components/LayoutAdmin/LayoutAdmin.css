@@ -1,0 +1,60 @@
+.header-admin{
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    background: #FFFFFF;
+}
+
+.header-admin__logo{
+    position: relative;
+    width: 200px;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #ddd; 
+    transition: all 0.2s;
+}
+
+.header-admin__logo-collapse{
+    width: 80px;
+    transition: all 0.2s;
+
+}
+
+.logo_true{
+    height: 48px;
+}
+
+.header-admin__nav{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.header-admin__nav-left{
+    font-size: 20px;
+
+}
+
+.header-admin__avatar{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.header-admin__collapse{
+    cursor: pointer;
+}
+
+.logo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.content-admin{
+    padding: 20px;
+    background: #CDEDFE;
+}
+

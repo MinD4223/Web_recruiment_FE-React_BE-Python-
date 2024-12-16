@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bangers&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bangers&family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+.search-name{
+    font-family: "Bebas Neue", serif;
+    max-width: 20vw;
+    margin-left: 5vw;
+    font-size: 26px;
+    color: #1F3B61;
+    padding-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.search-form{
+    margin-left: 7vw;
+    padding: 10px 0;
+}
+.search-item{
+    
+    padding-right:20px ;
+}
+.search-label{
+    font-family: "Roboto Condensed", sans-serif;
+}
+.search-input{
+    width: 200px;
+}
+.search-input__button{
+   margin-top: 21px;
+}

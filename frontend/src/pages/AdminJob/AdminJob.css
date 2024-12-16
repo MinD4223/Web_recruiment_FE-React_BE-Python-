@@ -1,0 +1,40 @@
+.admin-job {
+   
+}
+
+.admin-job__title {
+  font-family: 'Bebas Neue', serif;
+  font-size: 30px;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3)
+}
+
+.admin-job__button-return{
+    margin-left: 40px;
+}
+
+.admin-job__button-add{
+    margin-right: 40px;
+}
+
+.admin-table{
+    min-height: 500px;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3)
+}
+
+.admin-table__size{
+    padding: 30px 20px;
+}
+
+.input_form{
+    margin-right: 20px;
+}

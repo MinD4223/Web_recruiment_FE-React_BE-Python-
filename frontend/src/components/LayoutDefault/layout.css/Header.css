@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#button-login{
+    font-family: "Bebas Neue", serif;
+    font-size: 17px;
+    width: 120px;
+    border-radius: 20px;
+    
+}
+.header{
+    font-family: "Bebas Neue", serif;
+   display: flex;
+   justify-content: space-between;
+}
+/* header brand */
+.header-brand{
+    display: flex;
+    align-items: center;
+    justify-content: center
+    ;
+}
+
+.header-brand__logo{
+    width: 115px;
+    height: auto;
+    padding-top: 2px;
+}
+
+.header-brand__name{
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    color: #1F3B61;
+}
+/* header menu */
+.header-menu{
+    display: flex;
+    align-items: center;
+    margin-right: 2vw;
+    
+}
+
+.header-menu__item{
+    font-size: 26px;
+    padding-right: 8vw; 
+    
+  
+}
+
+.header-menu__item a:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.header-menu__item a{
+    text-decoration: none;
+    color: black;
+    opacity: 51%;
+}
+
+

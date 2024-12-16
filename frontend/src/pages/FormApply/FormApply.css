@@ -1,0 +1,89 @@
+
+
+.form-apply-column__left{
+    display: flex;
+    justify-content: center;
+   padding: 40px;
+}
+
+.form-apply{
+    min-width: 600px ;
+    min-height: 480px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.form-apply-title{
+    font-family: "Abel", sans-serif;
+    font-size: 33px;
+    font-weight: 800;
+    color: #1F3B61;
+    padding: 0 10px;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.form-apply__input{
+    width: 400px;
+}
+
+.ant-input-affix-wrapper{
+    width: 400px;
+    margin: 0 20px;
+}
+
+#button__file{
+    width: 400px;
+    /* margin: 0 20px; */
+    padding: 50px;
+}
+
+.ant-form-item-control-input-content .button__apply {
+    text-align: center;
+    margin: 10px 0;
+    
+}
+
+.ant-form-item-control-input-content .button__apply .ant-btn{
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.banner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-banner{
+    width: 100%;
+}
+
+.form-apply__banner-name, .form-apply__banner-slogan{
+    position: absolute;
+    text-align: center;
+    width: 90%;
+}
+
+.form-apply__banner-name{
+    font-family: "Bebas Neue", serif;
+    font-size: 90px;
+    color: #1F3B61;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    bottom: -4%;
+}
+
+.form-apply__banner-slogan{
+    font-family: "Abel", sans-serif;
+    font-size: 33px;
+    color: #1F3B61;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    bottom: -8%;
+}

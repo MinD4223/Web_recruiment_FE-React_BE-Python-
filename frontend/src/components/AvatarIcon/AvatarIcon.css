@@ -1,0 +1,16 @@
+.avatar{
+    display: flex !important;
+    justify-content: center;
+    padding: 5px;
+}
+.avatar-label{
+    font-family: "Abel", sans-serif;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #1F3B61;
+    font-weight: 600;
+}
+
+.log-out:hover{
+    color: rgb(226, 103, 103);
+}

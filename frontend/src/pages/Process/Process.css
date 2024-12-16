@@ -1,0 +1,41 @@
+.process{
+    display: flex;
+    justify-content: center;
+}
+.process-main{
+    background: white;
+    width: 80%;
+    height: 75vh;
+    margin-top: 5px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+}
+
+.title{
+  padding-top: 10px;
+}
+
+.process-step .ant-steps{
+    height: 100%;
+    margin: 20px;
+}
+
+.process-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.process-unsubmit{
+    padding: 20px;
+}
+
+.info{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.interview-content{
+    margin-bottom: 10px;
+}

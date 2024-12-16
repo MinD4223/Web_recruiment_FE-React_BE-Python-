@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bangers&family=Bebas+Neue&display=swap');
+
+
+
+.card-item .ant-card-body{
+    padding: 0 !important;
+}
+
+.card-item__name{
+   padding-top: 10px;
+   text-align: center;
+   color: #1F3B61;
+   font-family: "Bebas Neue", serif;
+   font-size: 26px;
+   
+}
+
+.card-item__infor{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    font-family: "Abel", sans-serif;
+   
+}
+
+.card-item__action{
+    text-align: center;
+    padding: 5px 0;
+}
